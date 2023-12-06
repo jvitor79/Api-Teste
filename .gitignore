@@ -1,0 +1,12 @@
+# python cache
+
+src/__pycache__
+migrations/__pycache__
+
+# virtual enviroment
+
+env
+
+# environment variables
+
+.env
