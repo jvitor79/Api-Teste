@@ -1,7 +1,7 @@
 # Api teste
 
 Esta é uma api teste desenvolvida para fins de aprendizagem e treino da construção de api para gerenciamento de uma base de dados
-de filmes e séries, afim de nomar as mesmas e dar uma nota para cada filme e episódio da série
+de filmes e séries, afim de nomear as mesmas e dar uma nota para cada filme e episódio da série
 
 Para isto foi utlizada as seguintes tecnologias:
 
