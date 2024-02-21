@@ -10,6 +10,8 @@ Para isto foi utlizada as seguintes tecnologias:
 - Alembic
 - Uvicorn
 - Pydantic
+- Supabase
+- PostgreSQL
 
 ## Comandos
 
@@ -21,3 +23,13 @@ Para isto foi utlizada as seguintes tecnologias:
 ### Instalar requirements
 
 - pip install -r requiremnts.txt
+
+### Iniciar Api
+
+- uvicorn src.app:main --reload
+
+### Versionamento base de dados
+
+- alembic revision --autogenerate -m <código_da_versão>
+- alembic upgade <id_versão> (head para versão mais recente)
+- alembic downgade <id_versão> (base para voltar ao estado inicial)

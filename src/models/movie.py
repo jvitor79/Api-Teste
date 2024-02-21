@@ -10,5 +10,5 @@ class Movie(Base):
     title: Mapped[str] = mapped_column(String(128), nullable=False)
     duration: Mapped[int] = mapped_column(Integer, nullable=False)
     category: Mapped[str] = mapped_column(String(128), nullable=False)
-    score: Mapped[int] = mapped_column(Integer, nullable=False)
+    score: Mapped[int] = mapped_column(Integer, nullable=True)
     

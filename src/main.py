@@ -4,7 +4,8 @@ from src.app.movie.controller import movie_router
 from src.app.series.controller import series_router
 
 app = FastAPI(
-    title="Api de Filmes", description="Api teste para entender o funcionamento de uma API"
+    title="Api de Filmes e Series", 
+    description="Api para armazenar uma coleção de filmes e series e notas para as mesmas"
 )
 
 @app.get("/", status_code=200)
