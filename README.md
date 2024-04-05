@@ -26,7 +26,7 @@ Para isto foi utlizada as seguintes tecnologias:
 
 ### Iniciar Api
 
-- uvicorn src.app:main --reload
+- uvicorn src.main:app --reload
 
 ### Versionamento base de dados
 
